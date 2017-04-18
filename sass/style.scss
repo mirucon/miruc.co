@@ -1,0 +1,325 @@
+@charset "UTF-8";
+/*
+Theme Name: page
+theme URI: https://mirucon.me
+*/
+
+/* ------------------------------------------------------------------------- *
+*  Reset
+* -------------------------------------------------------------------------- */
+textarea, input, select, button { font: inherit; -webkit-tap-highlight-color: rgba(68, 68, 68, .3); }
+a:hover, a:active { outline-width: 0 }
+input[type="submit"], input[type="reset"], input[type="button"], button {
+  background: none; border: 0; color: inherit; font: inherit; line-height: normal; overflow: visible; padding: 0; -webkit-appearance: button; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;
+}
+input::-moz-focus-inner, button::-moz-focus-inner { border: 0; padding: 0; }
+strong { font-weight: 500; }
+@mixin box-shadow() { box-shadow: 0 0 2px 0 rgba(0,0,0,0.14), 0 1px 3px 0 rgba(0,0,0,0.12) }
+a {
+  display: block;
+}
+
+/* ------------------------------------------------------------------------- *
+*  Global
+* -------------------------------------------------------------------------- */
+body {
+
+}
+
+.container {
+  max-width: 860px;
+}
+
+.container .row {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.row .col {
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.14),
+  0 1px 3px 0 rgba(0,0,0,0.12)
+}
+
+/* ------------------------------------------------------------------------- *
+*  Line Layout
+* -------------------------------------------------------------------------- */
+section[class^="line-"] {
+  margin: 0px .1rem 1.9rem;
+  padding: 1rem .8rem;
+  @include box-shadow;
+
+  .col {
+    box-shadow: none;
+  }
+
+  &:first-child {
+    margin-top: 1.9rem;
+  }
+}
+
+
+/* ------------------------------------------------------------------------- *
+*  Modules
+* -------------------------------------------------------------------------- */
+.intro {
+  text-align: center;
+  h2 {
+    display: inline-block;
+    position: relative;
+    color: #bf360c;
+    font-family: Raleway, Lato, Arial, sans-serif;
+    font-weight: 300;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 3px; right: 50%; left: 50%;
+      height: 1px;
+      background-color: #444;
+    }
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1.8rem;
+    color: #686868;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 1.1rem;
+  }
+}
+
+.info {
+  h6 {
+    margin-bottom: .6rem;
+    font-weight: 600;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  @media only screen and (max-width: 600px) {
+    text-align: center;
+  }
+}
+
+.name, .aka {
+  text-align: center;
+}
+.name {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.logo img {
+  display: block;
+  width: 58%;
+  margin: auto;
+  padding: 1px;
+  border: 6px solid #fff;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+  0 1px 3px 0 rgba(0,0,0,0.12);
+  user-select: none;
+}
+
+/* ------------------------------------------------------------------------- *
+*  Social
+* -------------------------------------------------------------------------- */
+$SclIconSize: 32px;
+.social-links {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 0 0%;
+
+  .btn {
+    width: calc(25% - 4px);
+    margin: 2px;
+    padding: 1.4rem 2rem;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+    0 1px 3px 0 rgba(0,0,0,0.12);
+    &:hover {
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    }
+  }
+
+  span, img {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: auto;
+    height: $SclIconSize;
+    width: $SclIconSize;
+    font-size: $SclIconSize;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    .btn {
+      width: calc(50% - 4px);
+      padding: 1.4rem 0;
+    }
+  }
+  @media only screen and (max-width: 374px) {
+    .btn {
+      width: 100%;
+    }
+  }
+}
+.twitter { background-color: #55acee !important; }
+.facebook { background-color: #3b5998 !important; }
+.googleplus { background-color: #dd4b39 !important }
+.github { background-color: #000 !important;
+  svg { width: auto; }
+}
+/* ------------------------------------------------------------------------- *
+*  Items
+* -------------------------------------------------------------------------- */
+
+$flxMrgn: .5rem;
+.line-2 {
+
+  .row {
+    flex-flow: row nowrap;
+  }
+
+  .col {
+    flex: 1 0 0;
+    padding: 1.2rem 1rem;
+    text-align: center;
+
+    @media only screen and (min-width: 601px) {
+
+      margin: .8rem $flxMrgn $flxMrgn $flxMrgn !important;
+
+    }
+  }
+
+  .tle-header {
+    color: #8b513e;
+    font-family: Raleway, Lato, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .row {
+      display: block;
+    }
+    .col {
+      margin-bottom: .8rem;
+    }
+  }
+}
+
+$BigiconSize: 60px;
+$SmalliconSize: 16px;
+
+.dashicons {
+  position: relative;
+
+  &.tle {
+    width: $BigiconSize;
+    height: $BigiconSize;
+    margin: 0px 0 auto;
+    font-size: $BigiconSize;
+    vertical-align: middle;
+  }
+  &.left {
+    height: 100%;
+    width: $SmalliconSize;
+    font-size: $SmalliconSize;
+    vertical-align: middle;
+
+    &::before {
+      position: absolute;
+      top: 50%; right: .1em;
+      margin-top: -$SmalliconSize / 2;
+    }
+  }
+}
+
+
+/* ------------------------------------------------------------------------- *
+*  products
+* -------------------------------------------------------------------------- */
+.coolbox {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 1rem 1.25rem;
+}
+*[class$="thumbnail"] {
+  flex: 1 0 45%;
+  max-width: 80%;
+
+  img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    vertical-align: top;
+    @include box-shadow;
+  }
+
+  a {
+    position: relative;
+  }
+
+  a::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    height: 100%; width: 100%;
+    background-color: transparent;
+    transition: all .4s;
+    border-radius: 6px;
+  }
+
+  a:hover::after {
+    background-color: #424242;
+    opacity: .6;
+  }
+
+}
+*[class$="header"] {
+  font-family: Raleway, Arial, sans-serif;
+  font-weight: 600;
+}
+*[class$="items"] {
+  flex: 1 1 55%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 4px 0 4px 20px;
+  margin-bottom: 1em;
+
+  .upper {
+
+  }
+
+  .lower {
+    align-self: flex-end;
+    .btn {
+      margin-bottom: .28rem;
+      @media only screen and (max-width: 600px) {
+        width: 90%;
+      }
+    }
+  }
+}
+
+
+/* ------------------------------------------------------------------------- *
+*  Animation
+* -------------------------------------------------------------------------- */
+.intro h2:after {
+  animation: underline .001s ease-out forwards;
+}
+
+@keyframes underline {
+  0% { width: 0 }
+  100% {
+    width: calc(100% - 60px);
+    right: 30px; left: 30px;
+  }
+}
