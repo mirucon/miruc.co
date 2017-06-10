@@ -58,21 +58,21 @@
             <span class="dashicons dashicons-wordpress tle"></span>
             <h5 class="tle-header">WordPress</h5>
             <p>I've been contributing to WordPress community since 2015</p>
-            <button type="button" name="button"><a href="https://profiles.wordpress.org/mirucon" class="waves-effect waves-light btn blue-grey darken-3" target="_blank"><span class="dashicons dashicons-wordpress-alt left"></span>WordPress</a></button>
+            <button type="button" name="button"><a href="https://profiles.wordpress.org/mirucon/" class="waves-effect waves-light btn blue-grey darken-3" target="_blank"><span class="dashicons dashicons-wordpress-alt left"></span>WordPress</a></button>
           </div>
 
           <div class="col s12 m4">
             <span class="dashicons dashicons-admin-appearance tle"></span>
             <h5 class="tle-header">WordPress Themes</h5>
             <p>I make WordPress themes for bloggers</p>
-            <button type="button" name="button"><a href="" class="waves-effect waves-light btn blue-grey lighten-3 disabled" target="_blank"><span class="dashicons dashicons-admin-appearance left"></span><!--Themes-->Coming Soon</a></button>
+            <button type="button" name="button"><a href="https://github.com/mirucon/coldbox/" class="waves-effect waves-light btn blue-grey lighten-3" target="_blank"><span class="dashicons dashicons-admin-appearance left"></span>Themes</a></button>
           </div>
 
           <div class="col s12 m4">
             <span class="dashicons dashicons-book tle"></span>
             <h5 class="tle-header">Blog</h5>
             <p>I write blog about frontend development in Japanese</p>
-            <button type="button" name="button"><a href="https://www.mirucon.com" class="waves-effect waves-light btn light-blue lighten-2" target="_blank"><span class="dashicons dashicons-edit left"></span>Blog</a></button>
+            <button type="button" name="button"><a href="https://www.mirucon.com/" class="waves-effect waves-light btn light-blue lighten-2" target="_blank"><span class="dashicons dashicons-edit left"></span>Blog</a></button>
           </div>
 
         </div>
@@ -85,39 +85,39 @@
           <h2>My Products</h2>
         </div>
 
-          <div class="coolbox col s12">
+        <div class="coldbox product col s12">
 
-            <p class="coolbox-thumbnail"><a href="http://blog.hatena.ne.jp/-/store/theme/6653812171401577138?locale.lang=en" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/coolbox.png" alt="coolbox" width="1200" height="800"></a></p>
-            <div class="coolbox-items">
-              <div class="upper">
-                <h5 class="coolbox-header">Coolbox</h5>
-                <p class="coolbox-explanation">Blog theme for Hatena Blog (Japanese blogging service). It's layouted by Flexible box layout. It's aiming to be simple and high performance.</p>
-              </div>
-              <div class="lower">
-                <a href="http://coolbox.hatenablog.com/entry/2016/06/18/002817" class="btn demo teal darken-1 waves-effect waves-light" target="_blank">Demo</a>
-                <a href="http://blog.hatena.ne.jp/-/store/theme/6653812171401577138?locale.lang=en" class="btn install light-blue darken-2 waves-effect waves-light" target="_blank">Install</a>
-                <a href="https://github.com/Mirucon/coolbox" class="btn github waves-effect waves-light" target="_blank">GitHub</a>
-              </div>
+          <p class="coldbox-thumbnail"><a href="https://miruc.co/coldbox/"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/coldbox.jpg" alt="coldbox" width="1200" height="900"></a></p>
+          <div class="coldbox-items">
+            <div class="upper">
+              <h5 class="coldbox-header">Coldbox</h5>
+              <p class="coldbox-explanation">Coldbox is a template of WordPress for bloggers.</p>
             </div>
-
+            <div class="lower">
+              <a href="https://miruc.co/coldbox/demo/" class="btn demo teal darken-1 waves-effect waves-light">Demo</a>
+              <a href="https://miruc.co/coldbox/" class="btn install light-blue darken-2 waves-effect waves-light">Install</a>
+              <a href="https://github.com/mirucon/coldbox/" class="btn github waves-effect waves-light">GitHub</a>
+            </div>
           </div>
 
-          <div class="coolbox col s12">
+        </div>
 
-            <p class="coldbox-thumbnail"><a href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/img/coldbox.png" alt="coldbox" width="1200" height="800"></a></p>
-            <div class="coldbox-items">
-              <div class="upper">
-                <h5 class="coldbox-header">Coldbox</h5>
-                <p class="coldbox-explanation">Coldbox is a template of WordPress for bloggers. </p>
-              </div>
-              <div class="lower">
-                <a href="" class="btn demo teal darken-1 waves-effect waves-light disabled">Demo</a>
-                <a href="" class="btn install light-blue darken-2 waves-effect waves-light disabled">Install</a>
-                <a href="" class="btn github waves-effect waves-light disabled">GitHub</a>
-              </div>
+        <div class="coolbox product col s12">
+
+          <p class="coolbox-thumbnail"><a href="http://blog.hatena.ne.jp/-/store/theme/6653812171401577138?locale.lang=en" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/coolbox.png" alt="coolbox" width="1200" height="800"></a></p>
+          <div class="coolbox-items">
+            <div class="upper">
+              <h5 class="coolbox-header">Coolbox</h5>
+              <p class="coolbox-explanation">Blog theme for Hatena Blog (Japanese blogging service). It's layouted by Flexible box layout. It's aiming to be simple and high performance.</p>
             </div>
+            <div class="lower">
+              <a href="http://coolbox.hatenablog.com/entry/2016/06/18/002817" class="btn demo teal darken-1 waves-effect waves-light" target="_blank">Demo</a>
+              <a href="http://blog.hatena.ne.jp/-/store/theme/6653812171401577138?locale.lang=en" class="btn install light-blue darken-2 waves-effect waves-light" target="_blank">Install</a>
+              <a href="https://github.com/Mirucon/coolbox" class="btn github waves-effect waves-light" target="_blank">GitHub</a>
+            </div>
+          </div>
 
-        </section>
+        </div>
 
       </section>
 
