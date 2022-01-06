@@ -58,7 +58,7 @@ array-union@^3.0.1:
   resolved "https://registry.yarnpkg.com/array-union/-/array-union-3.0.1.tgz#da52630d327f8b88cfbfb57728e2af5cd9b6b975"
   integrity sha512-1OvF9IbWwaeiM9VhzYXVQacMibxpXOMYVNIvMtKRyX9SImBXpKcFr8XvFDeEslCyuH/t6KRt7HEO94AlP8Iatw==
 
-autoprefixer@^10.4.1:
+autoprefixer@10.4.1:
   version "10.4.1"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.1.tgz#1735959d6462420569bc42408016acbc56861c12"
   integrity sha512-B3ZEG7wtzXDRCEFsan7HmR2AeNsxdJB0+sEC0Hc5/c2NbhJqPwuZm+tn233GBVw82L+6CtD6IPSfVruwKjfV3A==
@@ -235,7 +235,7 @@ cssnano-utils@^2.0.1:
   resolved "https://registry.yarnpkg.com/cssnano-utils/-/cssnano-utils-2.0.1.tgz#8660aa2b37ed869d2e2f22918196a9a8b6498ce2"
   integrity sha512-i8vLRZTnEH9ubIyfdZCAdIdgnHAUeQeByEeQ2I7oTilvP9oHO6RScpeq3GsFUVqeB8uZgOQ9pw8utofNn32hhQ==
 
-cssnano@^5.0.14:
+cssnano@5.0.14:
   version "5.0.14"
   resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-5.0.14.tgz#99bc550f663b48c38e9b8e0ae795697c9de84b47"
   integrity sha512-qzhRkFvBhv08tbyKCIfWbxBXmkIpLl1uNblt8SpTHkgLfON5OCPX/CCnkdNmEosvo8bANQYmTTMEgcVBlisHaw==
@@ -532,7 +532,7 @@ postcss-calc@^8.0.0:
     postcss-selector-parser "^6.0.2"
     postcss-value-parser "^4.0.2"
 
-postcss-cli@^9.1.0:
+postcss-cli@9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-9.1.0.tgz#1a86404cbe848e370127b4bdf5cd2be83bc45ebe"
   integrity sha512-zvDN2ADbWfza42sAnj+O2uUWyL0eRL1V+6giM2vi4SqTR3gTYy8XzcpfwccayF2szcUif0HMmXiEaDv9iEhcpw==
@@ -774,7 +774,7 @@ postcss-value-parser@^4.0.2, postcss-value-parser@^4.1.0, postcss-value-parser@^
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@^8.4.5:
+postcss@8.4.5:
   version "8.4.5"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.5.tgz#bae665764dfd4c6fcc24dc0fdf7e7aa00cc77f95"
   integrity sha512-jBDboWM8qpaqwkMwItqTQTiFikhs/67OYVvblFFTM7MrZjt6yMKd6r2kgXizEbTTljacm4NldIlZnhbjr84QYg==
@@ -824,7 +824,7 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-sass@^1.46.0:
+sass@1.46.0:
   version "1.46.0"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.46.0.tgz#923117049525236026a7ede69715580eb0fac751"
   integrity sha512-Z4BYTgioAOlMmo4LU3Ky2txR8KR0GRPLXxO38kklaYxgo7qMTgy+mpNN4eKsrXDTFlwS5vdruvazG4cihxHRVQ==
