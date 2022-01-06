@@ -31,3 +31,15 @@ if ( !function_exists ( 'site_title' ) ) {
   }
 }
 add_action( 'site_title', 'after_setup_theme' );
+
+function load_ga() { ?>
+    <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-56308747-7', 'auto'); ga('send', 'pageview'); </script>
+    <?php
+}
+add_action( 'wp_head', 'load_ga' );
+
+
+/*   Remove Emoji
+/* -------------------------------------------------- */
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
