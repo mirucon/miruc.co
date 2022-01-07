@@ -4,7 +4,7 @@
     "build": "sass style/style.scss style/style.css && postcss style/style.css > style/style.min.css"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.1",
+    "autoprefixer": "10.4.2",
     "cssnano": "5.0.14",
     "postcss": "8.4.5",
     "postcss-cli": "9.1.0",
