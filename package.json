@@ -5,10 +5,10 @@
   },
   "devDependencies": {
     "autoprefixer": "10.4.4",
-    "cssnano": "5.1.5",
+    "cssnano": "5.1.7",
     "postcss": "8.4.12",
     "postcss-cli": "9.1.0",
-    "sass": "1.49.9"
+    "sass": "1.50.0"
   },
   "browserslist": [
     "> 0.5% in JP"
