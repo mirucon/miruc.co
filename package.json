@@ -4,11 +4,11 @@
     "build": "sass style/style.scss style/style.css && postcss style/style.css > style/style.min.css"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.8",
+    "autoprefixer": "10.4.12",
     "cssnano": "5.1.13",
     "postcss": "8.4.16",
     "postcss-cli": "10.0.0",
-    "sass": "1.54.9"
+    "sass": "1.55.0"
   },
   "browserslist": [
     "> 0.5% in JP"
