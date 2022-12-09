@@ -7,8 +7,8 @@
     "autoprefixer": "10.4.13",
     "cssnano": "5.1.14",
     "postcss": "8.4.19",
-    "postcss-cli": "10.0.0",
-    "sass": "1.56.1"
+    "postcss-cli": "10.1.0",
+    "sass": "1.56.2"
   },
   "browserslist": [
     "> 0.5% in JP"
