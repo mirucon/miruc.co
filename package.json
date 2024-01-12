@@ -6,9 +6,9 @@
   "devDependencies": {
     "autoprefixer": "10.4.16",
     "cssnano": "5.1.15",
-    "postcss": "8.4.32",
+    "postcss": "8.4.33",
     "postcss-cli": "10.1.0",
-    "sass": "1.69.5"
+    "sass": "1.69.7"
   },
   "browserslist": [
     "> 0.5% in JP"
